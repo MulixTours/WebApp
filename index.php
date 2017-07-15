@@ -1,160 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Mulix Tours | Tours</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
-    <!-- Template styles -->
-    <link href="css/style.css" rel="stylesheet">
-    <style rel="stylesheet">
-        /* TEMPLATE STYLES */
-        /* Necessary for full page carousel*/
-        
-        html,
-        body {
-            height: 100%;
-        }
-        /* Navigation*/
-        
-        .navbar {
-            background-color: transparent;
-        }
-        
-        .top-nav-collapse {
-            background-color: #ffbb33;
-        }
-        
-        footer.page-footer {
-            background-color: #FF8800;
-        }
-        
-        @media only screen and (max-width: 768px) {
-            .navbar {
-                background-color: #4285F4;
-            }
-        }
-        
-        .scrolling-navbar {
-            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-            transition: background .5s ease-in-out, padding .5s ease-in-out;
-        }
-        /* Carousel*/
-        
-        .carousel {
-            height: 100%;
-        }
-        
-        @media (max-width: 776px) {
-            .carousel {
-                height: 100%;
-            }
-        }
-        
-        .carousel-item,
-        .active {
-            height: 100%;
-        }
-        
-        .carousel-inner {
-            height: 100%;
-        }
-        /*Caption*/
-        
-        .flex-center {
-            color: #fff;
-        }
-        /* Center align the text within the three columns below the carousel */
-        
-        .marketing .col-lg-4 {
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        
-        .marketing h2 {
-            font-weight: normal;
-        }
-        
-        .marketing .col-lg-4 p {
-            margin-right: 10px;
-            margin-left: 10px;
-        }
-        
-        .featurette-divider1 {
-            margin-top: 60px;
-            margin-bottom: 5px;
-            /* Space out the Bootstrap <hr> more */
-        }
-        
-        .featurette-divider2 {
-            margin-top: 5px;
-            margin-bottom: 30px;
-            /* Space out the Bootstrap <hr> more */
-        }
-        
-        :-webkit-any(article, aside, nav, section) h1 {
-            font-size: 1.5em;
-            -webkit-margin-before: 0.83em;
-            -webkit-margin-after: 0.83em;
-        }
-        
-        h1 {
-            display: block;
-            font-size: 2em;
-            -webkit-margin-before: 0.67em;
-            -webkit-margin-after: 0.67em;
-            -webkit-margin-start: 0px;
-            -webkit-margin-end: 0px;
-            font-weight: bold;
-        }
-    </style>
-</head>
+<?php include("design/head.php"); ?>
 
 <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-toggleable-md navbar-dark fixed-top scrolling-navbar">
-        <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-            <a class="navbar-brand" href="#"> <strong>Mulix Tours</strong> </a>
-            <div class="collapse navbar-collapse" id="navbarNav1">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"> <a class="nav-link">Inicio <span class="sr-only">(current)</span></a> </li>
-                    <li class="nav-item"> <a class="nav-link">Galería</a> </li>
-                    <li class="nav-item"> <a class="nav-link">Contáctanos</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="vistas/filosofia.html">Acerca de</a> </li>
-                    <li class="nav-item">
-                        <a class="nav-link"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"></a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link"><i class="fa fa-whatsapp" aria-hidden="true"></i> +52 1 984 141 7026</a>
-                        <li class="nav-item"> <a class="nav-link"><i class="fa fa-whatsapp" aria-hidden="true"></i> +52 1 984 210 7952</a> </li>
-                </ul>
-                <form class="form-inline waves-effect waves-light">
-                    <!--<input class="form-control" type="text" placeholder="Buscar">--><a class="nav-link">Idiomas</a> </form>
-            </div>
-        </div>
-    </nav>
-    <!--/.Navbar-->
-    <!--Carousel Wrapper-->
+
+<?php include("design/header1.php"); ?>
+
+    <!--Inicia Carousel Wrapper-->
     <div id="carousel-example-3" class="carousel slide carousel-fade white-text" data-ride="carousel" data-interval="false">
-        <!--Indicators-->
+        <!--Inician Indicators-->
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-3" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-3" data-slide-to="1"></li>
             <li data-target="#carousel-example-3" data-slide-to="2"></li>
         </ol>
-        <!--/.Indicators-->
-        <!--Slides-->
+        <!--/. Finalizan Indicators-->
+        <!--Inician Slides-->
         <div class="carousel-inner" role="listbox">
             <!-- First slide -->
             <div class="carousel-item active view hm-black-light" style="background-image: url('img/sacactun.jpg'); background-repeat: no-repeat; background-size: cover;">
@@ -162,7 +24,8 @@
                 <div class="full-bg-img flex-center white-text">
                     <ul class="animated fadeIn col-md-12">
                         <li>
-                            <h1 class="h1-responsive">Sac Ak Tun</h1></li>
+                            <h1 class="h1-responsive">Sac Ak Tun</h1>
+                        </li>
                         <li>
                             <p>Un mundo subterráneo.</p>
                         </li>
@@ -178,7 +41,8 @@
                 <div class="full-bg-img flex-center white-text">
                     <ul class="animated fadeIn col-md-12">
                         <li>
-                            <h1 class="h1-responsive">Punta Allen</h1> </li>
+                            <h1 class="h1-responsive">Punta Allen</h1>
+                        </li>
                         <li>
                             <p>Descubre la naturaleza.</p>
                         </li>
@@ -194,7 +58,8 @@
                 <div class="full-bg-img flex-center white-text">
                     <ul class="animated fadeIn col-md-12">
                         <li>
-                            <h1 class="h1-responsive">Casa Cenote</h1></li>
+                            <h1 class="h1-responsive">Casa Cenote</h1>
+                        </li>
                         <li>
                             <p>Aguas con una belleza transparente.
                                 <p>
@@ -325,7 +190,9 @@
                     <!--Card content-->
                     <div class="card-block">
                         <!--Title-->
-                        <h4 class="card-title">Tulum Ruinas<br><h6>(Palacio Maya)</h6></h4>
+                        <h4 class="card-title">Tulum Ruinas<br>
+                            <h6>(Palacio Maya)</h6>
+                        </h4>
                         <!--Text-->
                         <p class="card-text text-justify">Ciudad amurallada Maya, ubicada sobre la costa del caribe mexicano, haciendo un espectacular contraste con sus aguas coloridas, una de las playas más hermosas de la Riviera Maya.<br><br><br> </p> <a href="#" class="btn btn-info">Ver más... &raquo;</a> </div>
                     <!--/.Card content-->
@@ -346,7 +213,9 @@
                     <!--Card content-->
                     <div class="card-block">
                         <!--Title-->
-                        <h4 class="card-title">Punta laguna<br><h6>(Santuario del mono araña)</h6></h4>
+                        <h4 class="card-title">Punta laguna<br>
+                            <h6>(Santuario del mono araña)</h6>
+                        </h4>
                         <!--Text-->
                         <p class="card-text text-justify">Como su nombre lo dice, es el hogar de varias familias de estos ejemplares y del mono aullador, esta pequeña comunidad en verdad es cálida y vive en unión con la naturaleza cuidando cada parte de ella.<br><br><br></p> <a href="#" class="btn btn-info">Ver más... &raquo;</a> </div>
                     <!--/.Card content-->
@@ -354,7 +223,7 @@
                 <!--/.Card-->
             </div>
             <!--Primera columna-->
-                        <div class="col-lg-4">
+            <div class="col-lg-4">
                 <!--Card-->
                 <div class="card wow fadeIn" data-wow-delay="0.6s">
                     <!--Card image-->
@@ -367,10 +236,12 @@
                     <!--Card content-->
                     <div class="card-block">
                         <!--Title-->
-                        <h4 class="card-title">Punta Allen<br><h6>(Sian Ka'an)</h6></h4>
+                        <h4 class="card-title">Punta Allen<br>
+                            <h6>(Sian Ka'an)</h6>
+                        </h4>
                         <!--Text-->
                         <p class="card-text text-justify">Sian ka’an significa “donde el cielo nace” en maya y fue declarada Patrimonio de la humanidad por la UNESCO en el año 1987. Es la mayor área protegida del caribe mexicano y esta ocupa una área de 650 mil hectáreas a lo largo de 120 kilómetros de norte a sur.
-</p> <a href="#" class="btn btn-info" >Ver más... &raquo;</a> </div>
+                        </p> <a href="#" class="btn btn-info">Ver más... &raquo;</a> </div>
                     <!--/.Card content-->
                 </div>
                 <!--/.Card-->
@@ -379,83 +250,8 @@
         </div>
     </div>
     <!--/.Content-->
-    <!--Footer-->
-    <footer class="page-footer center-on-small-only wow fadeIn" data-wow-delay="0.4s">
-        <!--Footer Links-->
-        <div class="container-fluid">
-            <div class="row">
-                <!--First column-->
-                <div class="col-lg-3 offset-lg-1 hidden-lg-down">
-                    <h5 class="title">ACERCA DE ESTE SITIO</h5>
-                    <p>Descripción 1 </p>
-                    <p>Descripción 2</p>
-                </div>
-                <!--/.First column-->
-                <hr class="hidden-md-up">
-                <!--Second column-->
-                <div class="col-lg-2 col-md-4 offset-lg-1">
-                    <h5 class="title">Tours recientes</h5>
-                    <ul>
-                        <li><a href="#!">Akumal</a></li>
-                        <li><a href="#!">Punta Allen</a></li>
-                        <li><a href="#!">Casa cenote</a></li>
-                        <li><a href="#!">Yal ku</a></li>
-                    </ul>
-                </div>
-                <!--/.Second column-->
-                <hr class="hidden-md-up">
-                <!--Third column-->
-                <div class="col-lg-2 col-md-4">
-                    <h5 class="title">Te puede gustar</h5>
-                    <ul>
-                        <li><a href="#!">"Descripcion"</a></li>
-                        <li><a href="#!">"Descripcion"</a></li>
-                        <li><a href="#!">"Descripcion"</a></li>
-                        <li><a href="#!">"Descripcion"</a></li>
-                    </ul>
-                </div>
-                <!--/.Third column-->
-                <hr class="hidden-md-up">
-                <!--Fourth column-->
-                <div class="col-lg-2 col-md-4">
-                    <h5 class="title">SÍGUENOS EN:</h5>
-                    <ul> <a href="#"><i class="fa fa-facebook fa-lg"></i></a> <a href="#"><i class="fa fa-twitter fa-lg"></i></a> <a href="#"><i class="fa fa-instagram fa-lg"></i></a> <a href="#"><i class="fa fa-tripadvisor fa-lg"></i></a> <a href="#"><i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i></a> </ul>
-                </div>
-                <!--/.Fourth column-->
-            </div>
-        </div>
-        <!--/.Footer Links-->
-        <hr>
-        <!--Call to action-->
-        <div class="call-to-action">
-            <h4>Mulix Tours Tulum</h4>
-            <ul>
-                <li>
-                    <h5>Contáctanos</h5></li>
-                <li><a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-info" rel="nofollow">Correo</a></li>
-                <li><a target="_blank" href="vistas/equipo.html" class="btn btn-default" rel="nofollow">Nuestro equipo</a></li>
-            </ul>
-        </div>
-        <!--/.Call to action-->
-        <!--Copyright-->
-        <div class="footer-copyright">
-            <div class="container-fluid"> © 2017 Copyright: <a href="http://www.MDBootstrap.com"> mulixtours.com </a> </div>
-        </div>
-        <!--/.Copyright-->
-    </footer>
-    <!--/.Footer-->
-    <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/tether.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+    <?php include("design/footer.php"); ?>
+
 </body>
 
 </html>
