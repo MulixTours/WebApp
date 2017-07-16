@@ -13,5 +13,6 @@
 
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <link href="css/free/_hover-effects.css" rel="stylesheet">
 </head>

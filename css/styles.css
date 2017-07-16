@@ -1,0 +1,121 @@
+    /* TEMPLATE STYLES */
+    /* Necessary for full page carousel*/
+    
+    html,
+    body {
+        height: 100%;
+    }
+    /* Navigation*/
+    
+    .navbar {
+        background-color: transparent;
+    }
+    
+    .top-nav-collapse {
+        background-color: #ffbb33;
+    }
+    
+    footer.page-footer {
+        background-color: #FF8800;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .navbar {
+            background-color: #4285F4;
+        }
+    }
+    
+    .scrolling-navbar {
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    /* Carousel*/
+    
+    .carousel {
+        height: 100%;
+    }
+    
+    @media (max-width: 776px) {
+        .carousel {
+            height: 100%;
+        }
+    }
+    
+    .carousel-item,
+    .active {
+        height: 100%;
+    }
+    
+    .carousel-inner {
+        height: 100%;
+    }
+    /*Caption*/
+    
+    .flex-center {
+        color: #fff;
+    }
+    
+    .marketing .col-lg-4 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .marketing h2 {
+        font-weight: normal;
+    }
+    
+    .marketing .col-lg-4 p {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .featurette-divider1 {
+        margin-top: 60px;
+        margin-bottom: 5px;
+        /* Space out the Bootstrap <hr> more */
+    }
+    
+    .featurette-divider2 {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        /* Space out the Bootstrap <hr> more */
+    }
+    
+     :-webkit-any(article, aside, nav, section) h1 {
+        font-size: 1.5em;
+        -webkit-margin-before: 0.83em;
+        -webkit-margin-after: 0.83em;
+    }
+    
+    h1 {
+        display: block;
+        font-size: 2em;
+        -webkit-margin-before: 0.67em;
+        -webkit-margin-after: 0.67em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-weight: bold;
+    }
+    
+    .zoom {
+        transition: 1.5s ease;
+        -moz-transition: 1.5s ease;
+        /* Firefox */
+        -webkit-transition: 1.5s ease;
+        /* Chrome - Safari */
+        -o-transition: 1.5s ease;
+        /* Opera */
+    }
+    
+    .zoom:hover {
+        transform: scale(2);
+        -moz-transform: scale(2);
+        /* Firefox */
+        -webkit-transform: scale(2);
+        /* Chrome - Safari */
+        -o-transform: scale(2);
+        /* Opera */
+        -ms-transform: scale(2);
+        /* IE9 */
+    }

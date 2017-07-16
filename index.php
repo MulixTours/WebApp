@@ -5,7 +5,7 @@
 
 <body>
 
-<?php include("design/header1.php"); ?>
+    <?php include("design/header1.php"); ?>
 
     <!--Inicia Carousel Wrapper-->
     <div id="carousel-example-3" class="carousel slide carousel-fade white-text" data-ride="carousel" data-interval="false">
@@ -29,7 +29,7 @@
                         <li>
                             <p>Un mundo subterráneo.</p>
                         </li>
-                        <li> <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-info btn-lg" rel="nofollow">Ver más... &raquo;</a> </li>
+                        <li> <a target="_blank" href="#" class="btn btn-info btn-lg" rel="nofollow">Ver más... &raquo;</a> </li>
                     </ul>
                 </div>
                 <!-- /.Caption -->
@@ -46,7 +46,7 @@
                         <li>
                             <p>Descubre la naturaleza.</p>
                         </li>
-                        <li> <a target="_blank" href="http://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-info btn-lg" rel="nofollow">Ver más... &raquo;</a> </li>
+                        <li> <a target="_blank" href="#" class="btn btn-info btn-lg" rel="nofollow">Ver más... &raquo;</a> </li>
                     </ul>
                 </div>
                 <!-- /.Caption -->
@@ -64,7 +64,7 @@
                             <p>Aguas con una belleza transparente.
                                 <p>
                         </li>
-                        <li> <a target="_blank" href="http://mdbootstrap.com/forums/forum/support/" class="btn btn-default btn-lg" rel="nofollow">Ver más... &raquo;</a> </li>
+                        <li> <a target="_blank" href="#" class="btn btn-default btn-lg" rel="nofollow">Ver más... &raquo;</a> </li>
                     </ul>
                 </div>
                 <!-- /.Caption -->
@@ -90,7 +90,7 @@
             <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s"> <img class="rounded-circle z-depth-2 zoom" src="img/ulin.png" alt="Generic placeholder image" width="140" height="140">
                 <h2>Nuestro equipo</h2>
                 <p>Descripción sobre los guías.</p>
-                <p><a class="btn btn-default" href="vistas/equipo.html" role="button">Ver más... &raquo;</a></p>
+                <p><a class="btn btn-default" href="equipo.php" role="button">Ver más... &raquo;</a></p>
             </div>
             <!-- /.col-lg-4 -->
             <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s"> <img class="rounded-circle z-depth-2 zoom" src="img/especial.JPG" alt="Generic placeholder image" width="140" height="140">
@@ -124,7 +124,7 @@
                         <!--Title-->
                         <h4 class="card-title">Ruinas Tour: Coba + Cenote + Lonch</h4>
                         <!--Text-->
-                        <p class="card-text text-justify">El cenote un gran domo con impresionante vista desde sus 15 metros de altura. Zona arqueológica en donde podremos escalar una de las pirámides más altas teniendo una impresionante vista del paisaje.<br><br></p> <a href="vistas/tourakumal.html" class="btn btn-info">Ver más... &raquo;</a> </div>
+                        <p class="card-text text-justify">El cenote un gran domo con impresionante vista desde sus 15 metros de altura. Zona arqueológica en donde podremos escalar una de las pirámides más altas teniendo una impresionante vista del paisaje.<br><br></p> <a href="tourakumal.html" class="btn btn-info">Ver más... &raquo;</a> </div>
                     <!--/.Card content-->
                 </div>
                 <!--/.Card-->

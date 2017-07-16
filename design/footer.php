@@ -52,14 +52,14 @@
             <li>
                 <h5>Contáctanos</h5>
             </li>
-            <li><a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-info" rel="nofollow">Correo</a></li>
-            <li><a target="_blank" href="vistas/equipo.html" class="btn btn-default" rel="nofollow">Nuestro equipo</a></li>
+            <li><a target="_blank" href="#" class="btn btn-info" rel="nofollow">Correo</a></li>
+            <li><a target="_blank" href="equipo.php" class="btn btn-default" rel="nofollow">Nuestro equipo</a></li>
         </ul>
     </div>
     <!--/.Call to action-->
     <!--Copyright-->
     <div class="footer-copyright">
-        <div class="container-fluid"> © 2017 Copyright: <a href="http://www.MDBootstrap.com"> mulixtours.com </a> </div>
+        <div class="container-fluid"> © 2017 Todos los reservados: <a href="http://www.MDBootstrap.com"> mulixtours.com </a> </div>
     </div>
     <!--/.Copyright-->
 </footer>
