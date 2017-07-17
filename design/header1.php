@@ -23,11 +23,8 @@
                     <li class="nav-item">
                         <a class="nav-link"></a>
                     </li>
-                    <li class="nav-item"> <a href="+52 1 984 141 7026" class="nav-link"><i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i></a>
-                        <li class="nav-item">
-                            <a class="nav-link"></a>
-                        </li>
-                        <li class="nav-item"> <a href="+52 1 984 210 7952" class="nav-link"><i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i></a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="tel:+5219841417026"><i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i></a>
+                        <li class="nav-item"> <a class="nav-link" href="tel:+5219842107952"><i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i></a> </li>
                 </ul>
                 <form class="form-inline waves-effect waves-light">
                     <!--<input class="form-control" type="text" placeholder="Buscar">-->
