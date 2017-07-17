@@ -38,7 +38,7 @@
                 <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s"> <img class="rounded-circle z-depth-2 zoom" src="img/ulin.png" alt="Generic placeholder image" width="180" height="180">
                     <h3>Miguel Ulin</h3>
                     <h5 class="text-muted">Guía de Tour</h5>
-                    <p>Originario de Tabasco México, bonito estado, pero Tulum se ha convertido en mi hogar, un pequeño pero bonito pueblo además de que las playas estar súper, aquí la vida es muy tranquila y con mucha gente amable, Disfruto mucho vivir aquí, entre mis actividades favoritas está la escalada libre, en pared o en cenotes una experiencia increíble, ir a pescar con mis tíos, ir a nadar en algún cenote en un día muy caluroso, me gusta explorar nuevos lugares, aprender cosas nuevas que los señores (men) sacerdote maya. Muy alegre con mucha energía y buena actitud en todo momento. Espero puedas venir a pasar un día como yo!!</p>
+                    <p>Pequeña descripción</p>
                     <hr>
                     <div class="row justify-content-md-center">
                         <div class="col-lg-1"><a href="https://www.facebook.com/miguel.ulin"><i class="fa fa-facebook fa-lg"></i></a></div>
@@ -73,6 +73,23 @@
                         <div class="col-lg-1"><a href="https://www.facebook.com/profile.php?id=100009281713496"><i class="fa fa-facebook fa-lg"></i></a></div>
                         <div class="col-lg-1"><a href="#"><i class="fa fa-twitter fa-lg"></i></a> </div>
                         <div class="col-lg-1"><a href="https://www.instagram.com/rodrigo.espadas/"><i class="fa fa-instagram fa-lg"></i></a> </div>
+                        <div class="col-lg-1"><a href="#"><i class="fa fa-linkedin fa-lg"></i></a> </div>
+
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s"> <img class="rounded-circle z-depth-2 zoom" src="img/mulix.png" alt="Generic placeholder image" width="180" height="180">
+                    <h3>Jimy</h3>
+                    <h5 class="text-muted">Marketing</h5>
+                    <p>Pequeña descripción</p>
+                    <hr>
+                    <div class="row justify-content-md-center">
+                        <div class="col-lg-1"><a href="https://www.facebook.com/miguel.ulin"><i class="fa fa-facebook fa-lg"></i></a></div>
+                        <div class="col-lg-1"><a href="#"><i class="fa fa-twitter fa-lg"></i></a> </div>
+                        <div class="col-lg-1"><a href="https://www.instagram.com/miguel.ulin/"><i class="fa fa-instagram fa-lg"></i></a> </div>
                         <div class="col-lg-1"><a href="#"><i class="fa fa-linkedin fa-lg"></i></a> </div>
 
                     </div>
